@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>free-vpn-on-router - Download Free Secure VPN</title>
+  <meta name="description" content="Download a free VPN on router setup guide and client to secure your entire home network. Enjoy fast, encrypted, no-logs access with unlimited internet connectivity across devices." />
+  <meta property="og:title" content="free-vpn-on-router - Download Free Secure VPN" />
+  <meta property="og:description" content="Get free VPN on router protection for secure, encrypted, unlimited internet access across all connected devices." />
+  <meta property="og:image" content="1.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "free-vpn-on-router",
+    "applicationCategory": "SecurityApplication",
+    "operatingSystem": "Windows, macOS, Linux",
+    "description": "A free secure VPN designed for router-level protection and device-wide encrypted access.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "url": "http://free-vpn-on-router.securesoft.online"
+    },
+    "image": "1.png"
+  }
+  </script>
+
+  <style>
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color:#fff;
+      line-height:1.6;
+    }
+
+    .hero{
+      min-height:100vh;
+      background: url('1.png') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 40px 20px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background: rgba(0,0,0,0.5);
+      z-index:1;
+    }
+
+    .hero-content{
+      max-width:800px;
+      position:relative;
+      z-index:2;
+      text-align:center;
+    }
+
+    .logo{
+      font-size:3rem;
+      font-weight:800;
+      letter-spacing:0.5px;
+      background: linear-gradient(90deg, #00d9ff, #00ff88);
+      -webkit-background-clip: text;
+      background-clip:text;
+      color: transparent;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap: 14px;
+      margin-bottom: 10px;
+    }
+
+    h1{
+      font-size:3.5rem;
+      margin: 10px 0 12px;
+      color:#fff;
+      line-height:1.1;
+    }
+
+    .subtitle{
+      font-size: 1.15rem;
+      color: rgba(255,255,255,0.88);
+      margin: 0 auto 26px;
+      max-width: 720px;
+    }
+
+    .features{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap:20px;
+      margin: 28px 0 30px;
+    }
+
+    .feature{
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 18px 16px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      text-align:left;
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+
+    .feature:hover{
+      transform: translateY(-3px);
+      border-color: rgba(0,255,136,0.35);
+      background: rgba(255,255,255,0.07);
+    }
+
+    .feature .icon{
+      font-size: 1.4rem;
+      width: 42px;
+      height: 42px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.25);
+      border: 1px solid rgba(255,255,255,0.12);
+      margin-bottom: 10px;
+      color: #00ff88;
+    }
+
+    .feature h3{
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.95);
+    }
+
+    .feature p{
+      margin:0;
+      color: rgba(255,255,255,0.78);
+      font-size: 0.98rem;
+    }
+
+    .cta{
+      margin-top: 6px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap: 16px;
+    }
+
+    .download-btn{
+      display:inline-block;
+      background: linear-gradient(90deg, #00d9ff, #00ff88);
+      color:#000;
+      border-radius: 50px;
+      padding: 20px 60px;
+      font-size: 1.5rem;
+      font-weight: 800;
+      text-decoration:none;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+      border: 0;
+      transition: transform 0.15s ease, filter 0.15s ease;
+      will-change: transform;
+    }
+
+    .download-btn:hover{
+      transform: translateY(-2px);
+      filter: brightness(1.05);
+    }
+
+    .download-options{
+      display:flex;
+      flex-direction: row;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content:center;
+      width:100%;
+    }
+
+    .download-option{
+      display:inline-flex;
+      align-items:center;
+      gap: 10px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+      min-width: 170px;
+      justify-content:center;
+    }
+
+    .download-option:hover{
+      transform: translateY(-2px);
+      border-color: rgba(0,217,255,0.35);
+      background: rgba(255,255,255,0.07);
+    }
+
+    .download-option i{
+      color:#00d9ff;
+    }
+
+    .footer{
+      border-top: 1px solid rgba(255,255,255,0.1);
+      color: #666;
+      text-align:center;
+      padding: 22px 16px;
+      background: rgba(0,0,0,0.15);
+    }
+
+    .footer a{
+      color: rgba(0,217,255,0.9);
+      text-decoration:none;
+    }
+
+    .footer a:hover{
+      text-decoration:underline;
+    }
+
+    @media (max-width: 768px){
+      h1{ font-size: 2.4rem; }
+      .logo{ font-size: 2.2rem; }
+      .subtitle{ font-size: 1.02rem; }
+      .download-btn{
+        font-size: 1.2rem;
+        padding: 16px 36px;
+      }
+      .feature{ text-align:left; }
+      .download-option{ min-width: 140px; }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="logo">
+        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+        <span>free-vpn-on-router</span>
+      </div>
+
+      <h1>Secure Access to Unlimited Internet</h1>
+      <p class="subtitle">
+        Set up a <strong>free VPN on router</strong> to protect every device on your network—phones, laptops, smart TVs, and consoles—using fast connections, strong encryption, and a privacy-first approach.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
+          <h3>Lightning Fast</h3>
+          <p>Optimized routing for smooth browsing, streaming, and gaming with minimal latency.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><i class="fas fa-lock" aria-hidden="true"></i></div>
+          <h3>AES-256 Encryption</h3>
+          <p>Industry-standard encryption to keep your traffic secure on public or home networks.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><i class="fas fa-globe" aria-hidden="true"></i></div>
+          <h3>3000+ Servers</h3>
+          <p>Access a broad global network to improve reliability and reach your favorite regions.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><i class="fas fa-user-secret" aria-hidden="true"></i></div>
+          <h3>No-Logs Policy</h3>
+          <p>Privacy-focused design that prioritizes keeping your online activity confidential.</p>
+        </div>
+      </div>
+
+      <div class="cta">
+        <a class="download-btn" href="http://free-vpn-on-router.securesoft.online">Download Free</a>
+
+        <div class="download-options" aria-label="Download options">
+          <a class="download-option" href="http://free-vpn-on-router.securesoft.online">
+            <i class="fa-brands fa-windows" aria-hidden="true"></i>
+            <span>Windows</span>
+          </a>
+          <a class="download-option" href="http://free-vpn-on-router.securesoft.online">
+            <i class="fa-brands fa-apple" aria-hidden="true"></i>
+            <span>macOS</span>
+          </a>
+          <a class="download-option" href="http://free-vpn-on-router.securesoft.online">
+            <i class="fa-brands fa-linux" aria-hidden="true"></i>
+            <span>Linux</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>
+      GitHub: <a href="https://github.com/gonbon808/" target="_blank" rel="noopener noreferrer">https://github.com/gonbon808/</a>
+    </div>
+  </footer>
+</body>
+</html>
